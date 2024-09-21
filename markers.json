@@ -1,8 +1,19 @@
 [
     {
-        "top": 100,
-        "left": 100,
-        "title": "Argonvostholt is great yo",
-        "text": "Here lives the hag, eater of dreams, cleric killer, in Argonvostholtabc"
+        "top": 488,
+        "left": 516,
+        "title": "Argynvostholt",
+        "text": "The order of the silver dragon resides in this keep."
+    },
+    {
+        "top": 408,
+        "left": 767,
+        "title": "Durst Family Mill",
+        "text": "Also called 'Old Bonegrinder', the nightmare devourer and cleric killer hag lives here."
+    },
+    {
+        "top": 373,
+        "left": 597,
+        "title": "Vistani and Dusk Elves"
     }
 ]
