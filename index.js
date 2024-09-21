@@ -19,9 +19,12 @@ fetch("markers.json")
     .then((response) => response.json())
     .then((data) => {
         data.forEach((marker) => {
+            const horizontalOffset = 10;
+            const verticalOffset = 20;
+
             const description = marker.text?.trim() || "";
             const html = `
-            <button class="marker" style="top: ${marker.top}px; left: ${marker.left}px;">
+            <button class="marker" style="top: ${marker.top - verticalOffset}px; left: ${marker.left - horizontalOffset}px;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"
                     stroke="white" stroke-width="1">
                     <!-- <animate attributeName="stroke-width" values="1;0;1" dur="4s" repeatCount="indefinite"/> -->
