@@ -8,6 +8,13 @@ mapContainer.addEventListener("click", (e) => {
     }
 })
 
+mapContainer.addEventListener("click", (e) => {
+    const rect = mapContainer.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    console.log(`left: ${x}, top: ${y}`);
+})
+
 fetch("markers.json")
     .then((response) => response.json())
     .then((data) => {
