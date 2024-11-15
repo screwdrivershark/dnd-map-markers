@@ -31,5 +31,11 @@
         "left": 170,
         "title": "Wizard of Wines",
         "text": "Biggest winery in Barovia"
-    }        
+    },
+    {
+        "top": 627,
+        "left": 106,
+        "title": "Yester Hill",
+        "text": "Mad druids"
+    }      
 ]
