@@ -37,5 +37,10 @@
         "left": 106,
         "title": "Yester Hill",
         "text": "Mad druids"
-    }      
+    },
+    {
+        "top": 205,
+        "left": 270,
+        "title": "Werewolf Den"
+    }
 ]
