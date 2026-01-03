@@ -42,5 +42,11 @@
         "top": 205,
         "left": 270,
         "title": "Werewolf Den"
+    },
+    {
+        "top": 392,
+        "left": 744,
+        "title": "Mountain Keep",
+        "text": "found through magic portal in castle"
     }
 ]
